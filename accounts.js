@@ -30,18 +30,3 @@ module.exports = class Accounts{
       return access_token;
   }
 }
-
-// let user=new Accounts();
-// user.appid="374086239168";
-// user.username="surajkumar@epsumlabs.com";
-// user.secretkey="KPHVJAgoBKLeGZxDgjQNxxGCJ";
-// var access = user.login();
-// console.log(access);
-// access.then(value=>{
-//   let t=new Epsumthings();
-//   var m="{  \"thingid\": \"string\",\"thingname\": \"string\"}";
-//   let mydata=t.thing_details(user,"EP0008");
-//   mydata.then(d=>{
-//     console.log(d);
-//   })
-// })
