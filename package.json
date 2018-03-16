@@ -1,0 +1,27 @@
+{
+  "name": "epsumthings",
+  "version": "1.0.0",
+  "description": "EpsumThings javaScript SDK for developers and hobbyists alike for using EpsumThings IoT platform",
+  "main": "things.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epsumlabs/epsumthings-js.git"
+  },
+  "keywords": [
+    "epsumthings"
+  ],
+  "author": "developers@epsumlabs.com (http://epsumlabs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Epsumlabs/epsumthings-js/issues"
+  },
+  "homepage": "https://github.com/Epsumlabs/epsumthings-js#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "node-rest-client": "^3.1.0"
+  }
+}
