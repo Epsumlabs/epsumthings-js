@@ -19,9 +19,8 @@ var Epsumthings=require("epsumthings/things");
  var access = user.login();
  console.log(access);
 access.then(value=>{
-  let t=new Epsumthings();
-  var m="{  \"thingid\": \"string\",\"thingname\": \"string\"}";
-  let mydata=t.thing_details(user,"EP0008");
+  let things=new Epsumthings();
+  let mydata=things.user_profile(user);
   mydata.then(d=>{
     console.log(d);
   })
