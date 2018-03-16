@@ -1,4 +1,4 @@
-# epsumthings-js
+# EpsumThings Javascript SDK
 EpsumThings JavaScript SDK for developers and hobbyists alike for using EpsumThings IoT platform.
 
 # Installation
